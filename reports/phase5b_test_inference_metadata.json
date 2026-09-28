@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-27T17:25:04Z",
+  "total_queries": 1732544,
+  "total_matched_pairs": 5462050,
+  "total_candidate_pairs": 239826802,
+  "total_singletons": 159947,
+  "runtime_sec": 37345.69,
+  "telemetry": {
+    "peak_system_ram_mb": 16059.9,
+    "peak_process_ram_mb": 10762.8,
+    "mean_cpu_percent": 18.7,
+    "max_cpu_percent": 38.5
+  },
+  "partitions": {
+    "France": {
+      "country": "France",
+      "queries_count": 259452,
+      "resumed_count": 88500,
+      "newly_processed_count": 170952,
+      "indexed_count": 1434993,
+      "index_build_sec": 194.12,
+      "evaluation_sec": 2079.6,
+      "total_candidate_pairs": 25666001,
+      "qps": 82.2,
+      "cands_per_sec": 12341.8,
+      "peak_worker_ram_mb": 3724.9,
+      "failures": 0
+    },
+    "US": {
+      "country": "US",
+      "queries_count": 663106,
+      "resumed_count": 0,
+      "newly_processed_count": 663106,
+      "indexed_count": 3817031,
+      "index_build_sec": 570.24,
+      "evaluation_sec": 7417.72,
+      "total_candidate_pairs": 89402909,
+      "qps": 89.4,
+      "cands_per_sec": 12052.6,
+      "peak_worker_ram_mb": 8910.2,
+      "failures": 0
+    },
+    "India": {
+      "country": "India",
+      "queries_count": 809986,
+      "resumed_count": 0,
+      "newly_processed_count": 809986,
+      "indexed_count": 4717565,
+      "index_build_sec": 897.83,
+      "evaluation_sec": 25608.84,
+      "total_candidate_pairs": 111492769,
+      "qps": 31.6,
+      "cands_per_sec": 4353.7,
+      "peak_worker_ram_mb": 10187.0,
+      "failures": 0
+    }
+  },
+  "output_file_sizes_mb": {
+    "output/matching_results.tsv": 88.59,
+    "output/candidate_pairs.tsv": 2969.23
+  }
+}

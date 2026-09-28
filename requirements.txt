@@ -1,0 +1,12 @@
+# EntiResolve — Large-Scale Business Entity Resolution Engine
+# Core production runtime dependencies
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+rapidfuzz>=3.0.0
+psutil>=5.9.0
+
+# Development, testing, and evaluation dependencies
+pytest>=7.4.0
+

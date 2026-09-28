@@ -1,0 +1,107 @@
+{
+  "benchmark_timestamp": "2026-09-27 11:07:24",
+  "full_queries_total": 1732544,
+  "full_queries_by_country": {
+    "France": 259452,
+    "US": 663106,
+    "India": 809986
+  },
+  "results_by_country": {
+    "France": {
+      "country": "France",
+      "target_universe_size": 1434993,
+      "sample_queries": 2000,
+      "target_index_build_sec": 235.82,
+      "old": {
+        "total_sec": 42.68,
+        "qps": 46.9,
+        "candidates_per_sec": 6999.9,
+        "lookup_sec": -104.884,
+        "retrieval_norm_sec": 27.366,
+        "features_sec": 12.335,
+        "scoring_sec": 0.843,
+        "checkpoint_sec": 1.36,
+        "peak_worker_ram_mb": 2279.7
+      },
+      "optimized": {
+        "total_sec": 30.93,
+        "qps": 64.7,
+        "candidates_per_sec": 9659.0,
+        "lookup_sec": 0.608,
+        "retrieval_norm_sec": 15.809,
+        "features_sec": 11.332,
+        "scoring_sec": 0.856,
+        "checkpoint_sec": 1.322,
+        "peak_worker_ram_mb": 2598.5,
+        "peak_system_ram_mb": 15042.6
+      },
+      "speedup_factor": 1.38
+    },
+    "US": {
+      "country": "US",
+      "target_universe_size": 3817031,
+      "sample_queries": 2000,
+      "target_index_build_sec": 872.18,
+      "old": {
+        "total_sec": 135.58,
+        "qps": 14.8,
+        "candidates_per_sec": 1987.6,
+        "lookup_sec": -337.777,
+        "retrieval_norm_sec": 106.076,
+        "features_sec": 23.556,
+        "scoring_sec": 1.974,
+        "checkpoint_sec": 2.547,
+        "peak_worker_ram_mb": 5926.0
+      },
+      "optimized": {
+        "total_sec": 40.01,
+        "qps": 50.0,
+        "candidates_per_sec": 6734.7,
+        "lookup_sec": 0.761,
+        "retrieval_norm_sec": 24.763,
+        "features_sec": 11.048,
+        "scoring_sec": 0.921,
+        "checkpoint_sec": 1.467,
+        "peak_worker_ram_mb": 5926.0,
+        "peak_system_ram_mb": 15588.0
+      },
+      "speedup_factor": 3.39
+    },
+    "India": {
+      "country": "India",
+      "target_universe_size": 4717565,
+      "sample_queries": 2000,
+      "target_index_build_sec": 912.93,
+      "old": {
+        "total_sec": 81.33,
+        "qps": 24.6,
+        "candidates_per_sec": 3349.2,
+        "lookup_sec": -256.8,
+        "retrieval_norm_sec": 63.919,
+        "features_sec": 14.557,
+        "scoring_sec": 0.735,
+        "checkpoint_sec": 1.237,
+        "peak_worker_ram_mb": 6906.9
+      },
+      "optimized": {
+        "total_sec": 50.93,
+        "qps": 39.3,
+        "candidates_per_sec": 5347.8,
+        "lookup_sec": 0.631,
+        "retrieval_norm_sec": 33.456,
+        "features_sec": 13.69,
+        "scoring_sec": 0.751,
+        "checkpoint_sec": 1.213,
+        "peak_worker_ram_mb": 6906.9,
+        "peak_system_ram_mb": 15634.8
+      },
+      "speedup_factor": 1.6
+    }
+  },
+  "projected_runtime_hours": {
+    "old_hours": 23.13,
+    "optimized_hours": 10.52,
+    "hours_saved": 12.61,
+    "reduction_percent": 54.5
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "candidate_pair_level": {
+    "operating_thresholds": {
+      "sampled_hardneg_1x": 0.97,
+      "fulluniverse_hardneg_1x": 0.9
+    },
+    "category_summary": {
+      "A_both_positive": {
+        "count": 22882,
+        "true_positives": 21871,
+        "false_positives": 1011,
+        "precision": 0.9558167992308365
+      },
+      "B_both_negative": {
+        "count": 1328735
+      },
+      "C_hardneg_pos_fulluniv_neg": {
+        "count": 5925,
+        "true_positives": 3874,
+        "false_positives": 2051,
+        "precision": 0.6538396624472573,
+        "recall_contribution": 0.11206572362521335,
+        "country_breakdown": {
+          "India": {
+            "count": 3540,
+            "tp": 2388,
+            "fp": 1152,
+            "precision": 0.6745762711864407
+          },
+          "US": {
+            "count": 2385,
+            "tp": 1486,
+            "fp": 899,
+            "precision": 0.6230607966457024
+          }
+        },
+        "script_breakdown": {
+          "CROSS_SCRIPT": {
+            "count": 480,
+            "tp": 428,
+            "fp": 52,
+            "precision": 0.8916666666666667
+          },
+          "LATIN": {
+            "count": 5445,
+            "tp": 3446,
+            "fp": 1999,
+            "precision": 0.6328741965105601
+          }
+        },
+        "cardinality_distribution": {
+          "0": {
+            "count": 155,
+            "tp": 0,
+            "fp": 155,
+            "precision": 0.0
+          },
+          "1": {
+            "count": 156,
+            "tp": 45,
+            "fp": 111,
+            "precision": 0.28846153846153844
+          },
+          "2": {
+            "count": 666,
+            "tp": 325,
+            "fp": 341,
+            "precision": 0.487987987987988
+          },
+          "3": {
+            "count": 1290,
+            "tp": 815,
+            "fp": 475,
+            "precision": 0.6317829457364341
+          },
+          "4": {
+            "count": 1429,
+            "tp": 980,
+            "fp": 449,
+            "precision": 0.6857942617214835
+          },
+          "5": {
+            "count": 1173,
+            "tp": 857,
+            "fp": 316,
+            "precision": 0.7306052855924978
+          },
+          "6": {
+            "count": 684,
+            "tp": 545,
+            "fp": 139,
+            "precision": 0.7967836257309941
+          },
+          "7": {
+            "count": 279,
+            "tp": 227,
+            "fp": 52,
+            "precision": 0.8136200716845878
+          },
+          ">=8": {
+            "count": 93,
+            "tp": 80,
+            "fp": 13,
+            "precision": 0.8602150537634409
+          }
+        },
+        "name_similarity": {
+          "mean": 0.6269053032437811,
+          "median": 0.6923076923076923,
+          "std": 0.2779125077346346,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "address_similarity": {
+          "mean": 0.6507880278795359,
+          "median": 0.7166666666666667,
+          "std": 0.26196795643134885,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "postal_compatibility": {
+          "exact_match": 125,
+          "mismatch": 85,
+          "missing": 5715
+        },
+        "house_number_compatibility": {
+          "exact_match": 2783,
+          "mismatch": 1312,
+          "missing": 1830
+        }
+      },
+      "D_fulluniv_pos_hardneg_neg": {
+        "count": 1946,
+        "true_positives": 1083,
+        "false_positives": 863,
+        "precision": 0.5565262076053443,
+        "recall_contribution": 0.03132864705371865,
+        "country_breakdown": {
+          "India": {
+            "count": 959,
+            "tp": 557,
+            "fp": 402,
+            "precision": 0.5808133472367049
+          },
+          "US": {
+            "count": 987,
+            "tp": 526,
+            "fp": 461,
+            "precision": 0.5329280648429585
+          }
+        },
+        "script_breakdown": {
+          "CROSS_SCRIPT": {
+            "count": 53,
+            "tp": 44,
+            "fp": 9,
+            "precision": 0.8301886792452831
+          },
+          "LATIN": {
+            "count": 1893,
+            "tp": 1039,
+            "fp": 854,
+            "precision": 0.5488642366613841
+          }
+        },
+        "cardinality_distribution": {
+          "0": {
+            "count": 84,
+            "tp": 0,
+            "fp": 84,
+            "precision": 0.0
+          },
+          "1": {
+            "count": 72,
+            "tp": 27,
+            "fp": 45,
+            "precision": 0.375
+          },
+          "2": {
+            "count": 276,
+            "tp": 133,
+            "fp": 143,
+            "precision": 0.48188405797101447
+          },
+          "3": {
+            "count": 455,
+            "tp": 247,
+            "fp": 208,
+            "precision": 0.5428571428571428
+          },
+          "4": {
+            "count": 405,
+            "tp": 247,
+            "fp": 158,
+            "precision": 0.6098765432098765
+          },
+          "5": {
+            "count": 359,
+            "tp": 225,
+            "fp": 134,
+            "precision": 0.6267409470752089
+          },
+          "6": {
+            "count": 187,
+            "tp": 125,
+            "fp": 62,
+            "precision": 0.6684491978609626
+          },
+          "7": {
+            "count": 76,
+            "tp": 52,
+            "fp": 24,
+            "precision": 0.6842105263157895
+          },
+          ">=8": {
+            "count": 32,
+            "tp": 27,
+            "fp": 5,
+            "precision": 0.84375
+          }
+        },
+        "name_similarity": {
+          "mean": 0.6453335085398259,
+          "median": 0.6785714285714286,
+          "std": 0.1948998982610863,
+          "min": 0.032258064516129004,
+          "max": 1.0
+        },
+        "address_similarity": {
+          "mean": 0.6330399386605136,
+          "median": 0.7202941176470588,
+          "std": 0.2831509704200521,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "postal_compatibility": {
+          "exact_match": 14,
+          "mismatch": 53,
+          "missing": 1879
+        },
+        "house_number_compatibility": {
+          "exact_match": 532,
+          "mismatch": 689,
+          "missing": 725
+        }
+      }
+    }
+  },
+  "query_level": {
+    "groups": {
+      "group_1_both_correct": {
+        "count": 2024,
+        "pct": 20.24,
+        "mean_gt_cardinality": 2.6230237154150196,
+        "singleton_count": 300,
+        "singleton_pct": 14.82213438735178
+      },
+      "group_2_both_fail": {
+        "count": 5851,
+        "pct": 58.51,
+        "mean_gt_cardinality": 3.850111092121005,
+        "singleton_count": 90,
+        "singleton_pct": 1.5381985985301656
+      },
+      "group_3_hardneg_succeeds_fulluniv_fails": {
+        "count": 1187,
+        "pct": 11.87,
+        "mean_gt_cardinality": 3.409435551811289,
+        "singleton_count": 52,
+        "singleton_pct": 4.380791912384161
+      },
+      "group_4_fulluniv_succeeds_hardneg_fails": {
+        "count": 938,
+        "pct": 9.379999999999999,
+        "mean_gt_cardinality": 2.863539445628998,
+        "singleton_count": 102,
+        "singleton_pct": 10.874200426439232
+      }
+    },
+    "complementary_signal_summary": {
+      "complementary_queries_count": 2125,
+      "complementary_queries_pct": 21.25,
+      "ensemble_justified": true
+    },
+    "prediction_set_overlap": {
+      "mean_jaccard": 0.7441909812409813,
+      "mean_intersection_size": 2.2882,
+      "mean_union_size": 3.0753,
+      "mean_hardneg_only_predictions": 0.5925,
+      "mean_fulluniv_only_predictions": 0.1946
+    }
+  }
+}

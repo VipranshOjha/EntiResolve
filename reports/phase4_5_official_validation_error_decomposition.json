@@ -1,0 +1,10 @@
+{
+  "all_gt_retrieved_correct": 107260,
+  "all_gt_retrieved_false_positives": 44248,
+  "all_gt_retrieved_false_negatives": 49504,
+  "all_gt_retrieved_mixed_error": 16928,
+  "partial_gt_retrieval": 87176,
+  "zero_gt_retrieved": 7419,
+  "singleton_correct": 12768,
+  "singleton_false_merges": 5719
+}

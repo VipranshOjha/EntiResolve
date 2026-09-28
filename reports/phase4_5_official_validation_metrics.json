@@ -1,0 +1,220 @@
+{
+  "overall": {
+    "macro_f05": 0.8270441298262655,
+    "macro_precision": 0.9172020745308617,
+    "macro_recall": 0.760031578554148,
+    "pair_precision": 0.9122766870367962,
+    "pair_recall": 0.7653194343002795,
+    "candidate_pair_recall": 0.872071826796128,
+    "complete_set_recall": 0.3625982563092483,
+    "singleton_accuracy": 0.6906474820143885,
+    "mean_fp_per_query": 0.25477158617856216,
+    "tp": 877040,
+    "fp": 84335,
+    "fn": 268939,
+    "total_queries": 331022,
+    "total_singletons": 18487,
+    "candidate_stats": {
+      "mean": 135.8585048727879,
+      "median": 146.0,
+      "p95": 175.0,
+      "p99": 175.0
+    }
+  },
+  "country": {
+    "India": {
+      "queries": 132478,
+      "macro_f05": 0.7921086130227646,
+      "macro_precision": 0.9068163657853694,
+      "macro_recall": 0.7197606119992298,
+      "pair_precision": 0.898450560817581,
+      "pair_recall": 0.7245681402860696,
+      "singleton_accuracy": 0.6697284884506282,
+      "mean_fp_per_query": 0.28382070985371155,
+      "tp": 332663,
+      "fp": 37600,
+      "fn": 126456
+    },
+    "US": {
+      "queries": 198544,
+      "macro_f05": 0.8503547682494025,
+      "macro_precision": 0.9241319133739732,
+      "macro_recall": 0.7869022828180885,
+      "pair_precision": 0.9209371489666933,
+      "pair_recall": 0.7925588911859768,
+      "singleton_accuracy": 0.704619271021292,
+      "mean_fp_per_query": 0.2353886292207269,
+      "tp": 544377,
+      "fp": 46735,
+      "fn": 142483
+    }
+  },
+  "cardinality": {
+    "0": {
+      "queries": 18487,
+      "macro_f05": 0.6906474820143885,
+      "macro_precision": 0.6906474820143885,
+      "macro_recall": 0.6906474820143885,
+      "pair_precision": 0.0,
+      "pair_recall": 0.0,
+      "singleton_accuracy": 0.6906474820143885,
+      "mean_fp_per_query": 0.3870287228863526,
+      "tp": 0,
+      "fp": 7155,
+      "fn": 0
+    },
+    "1": {
+      "queries": 17873,
+      "macro_f05": 0.663927814975049,
+      "macro_precision": 0.8616176834970561,
+      "macro_recall": 0.7515246461142505,
+      "pair_precision": 0.7503491425060053,
+      "pair_recall": 0.7515246461142505,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.25004196273708945,
+      "tp": 13432,
+      "fp": 4469,
+      "fn": 4441
+    },
+    "2": {
+      "queries": 56331,
+      "macro_f05": 0.7909881134134583,
+      "macro_precision": 0.9036090393148725,
+      "macro_recall": 0.7590935719230975,
+      "pair_precision": 0.8577919537808805,
+      "pair_recall": 0.7590935719230975,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.2516908984395803,
+      "tp": 85521,
+      "fp": 14178,
+      "fn": 27141
+    },
+    "3": {
+      "queries": 79577,
+      "macro_f05": 0.835907444402998,
+      "macro_precision": 0.9266811360305511,
+      "macro_recall": 0.765233673046073,
+      "pair_precision": 0.9011557642694712,
+      "pair_recall": 0.7652336730462319,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.25180642648001306,
+      "tp": 182685,
+      "fp": 20038,
+      "fn": 56046
+    },
+    "4": {
+      "queries": 72303,
+      "macro_f05": 0.8590523604230972,
+      "macro_precision": 0.9420529000143262,
+      "macro_recall": 0.7670739803327663,
+      "pair_precision": 0.9254460430754341,
+      "pair_recall": 0.7670739803327663,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.24718199798072002,
+      "tp": 221847,
+      "fp": 17872,
+      "fn": 67365
+    },
+    "5": {
+      "queries": 48608,
+      "macro_f05": 0.8738074821729109,
+      "macro_precision": 0.9526359809477392,
+      "macro_recall": 0.7677213627385631,
+      "pair_precision": 0.9412604486684727,
+      "pair_recall": 0.7677213627386439,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.23954904542462147,
+      "tp": 186587,
+      "fp": 11644,
+      "fn": 56453
+    },
+    "6": {
+      "queries": 24798,
+      "macro_f05": 0.8814548722475241,
+      "macro_precision": 0.9588532485338064,
+      "macro_recall": 0.7658682151786502,
+      "pair_precision": 0.9502176414669535,
+      "pair_recall": 0.7658682151786435,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.24074522138882168,
+      "tp": 113952,
+      "fp": 5970,
+      "fn": 34836
+    },
+    "7": {
+      "queries": 9554,
+      "macro_f05": 0.8903297402052532,
+      "macro_precision": 0.9647760274173351,
+      "macro_recall": 0.7666497203863671,
+      "pair_precision": 0.9580686149936467,
+      "pair_recall": 0.7666497203863752,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.23487544483985764,
+      "tp": 51272,
+      "fp": 2244,
+      "fn": 15606
+    },
+    ">=8": {
+      "queries": 3491,
+      "macro_f05": 0.890471732253694,
+      "macro_precision": 0.9706597215763597,
+      "macro_recall": 0.7550706868166057,
+      "pair_precision": 0.9660135945621752,
+      "pair_recall": 0.7551310991491579,
+      "singleton_accuracy": 1.0,
+      "mean_fp_per_query": 0.219134918361501,
+      "tp": 21744,
+      "fp": 765,
+      "fn": 7051
+    }
+  },
+  "cross_script": {
+    "pairs_evaluated": 1690590,
+    "tp": 38718,
+    "fp": 1133,
+    "fn": 16732,
+    "precision": 0.9715690948784221,
+    "recall": 0.6982506762849414,
+    "f05": 0.901030467200983
+  },
+  "error_decomposition": {
+    "all_gt_retrieved_correct": 107260,
+    "all_gt_retrieved_false_positives": 44248,
+    "all_gt_retrieved_false_negatives": 49504,
+    "all_gt_retrieved_mixed_error": 16928,
+    "partial_gt_retrieval": 87176,
+    "zero_gt_retrieved": 7419,
+    "singleton_correct": 12768,
+    "singleton_false_merges": 5719
+  },
+  "experiment_meta": {
+    "phase": "4.5",
+    "timestamp": "2026-09-26T19:44:27Z",
+    "python_hash_seed": "2026",
+    "total_queries": 331022,
+    "india_queries": 132478,
+    "us_queries": 198544,
+    "total_targets": 10320219,
+    "total_wall_sec": 32135.323887499995,
+    "telemetry": {
+      "peak_system_ram_mb": 16073.46875,
+      "peak_process_ram_mb": 10888.30859375,
+      "mean_cpu_percent": 11.076799447840662,
+      "max_cpu_percent": 32.0
+    },
+    "profiles": {
+      "India": {
+        "indexed_count": 4133346,
+        "index_build_sec": 1072.4730619000038,
+        "evaluation_sec": 12244.292619200001,
+        "peak_worker_ram_mb": 6175.96484375
+      },
+      "US": {
+        "indexed_count": 6186873,
+        "index_build_sec": 1234.4319923000003,
+        "evaluation_sec": 16124.577415699998,
+        "peak_worker_ram_mb": 10888.30859375
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# EntiResolve Frozen Production Model Manifest
+# Amazon ML Challenge 2026: Business Entity Resolution
+# Architecture: Complementary Dual-LightGBM Ensemble (Macro F0.5 = 0.8270)
+
+Model A: Sampled-Universe Hard-Negative Matcher
+Filename: matcher_hardneg_1x.pkl
+Subdirectory copy: phase4_3/matcher_hardneg_1x.pkl
+Ensemble Weight: alpha = 0.88
+Training Strategy: Pairwise GBDT with 1x diverse sampled hard negatives mined across blocking channels
+Size (bytes): 1061813
+SHA-256: 0c6a5c3a8de0ee14aa2527ff180e2e381dfcaa31efd9a8277084e6be333e11cb
+
+Model B: Full-Universe Hard-Negative Rejection Matcher
+Filename: matcher_fulluniverse_hardneg_1x.pkl
+Subdirectory copy: phase4_3c/matcher_fulluniverse_hardneg_1x.pkl
+Ensemble Weight: 1 - alpha = 0.12
+Training Strategy: Pairwise GBDT with hard negatives mined directly against the complete 10,320,219-record target universe
+Size (bytes): 1063997
+SHA-256: 5c82350bee1b45bdfeaf459ba16ac824e24aa8f35db6e5061ca2a8857063edfd
+
+Ensemble Decision Rule:
+S = 0.88 * P(Model A) + 0.12 * P(Model B)
+Decision: S >= 0.915
+Deterministic Blocker Budget: K = 175
+Pairwise Features: 61 features (cross-script transliteration enabled)

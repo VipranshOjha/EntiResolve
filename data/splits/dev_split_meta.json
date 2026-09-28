@@ -1,0 +1,30 @@
+{
+  "seed": 2026,
+  "dev_val_fraction_target": 0.1,
+  "dev_val_fraction_actual": 0.10000058641677494,
+  "n_dev_train": 1688218,
+  "n_dev_val": 187581,
+  "n_total_train": 1875799,
+  "country_dev_train": {
+    "US": 1012580,
+    "India": 675638
+  },
+  "country_dev_val": {
+    "US": 112509,
+    "India": 75072
+  },
+  "bucket_dev_train": {
+    "6+": 193004,
+    "4-5": 616645,
+    "2-3": 693130,
+    "0": 94284,
+    "1": 91155
+  },
+  "bucket_dev_val": {
+    "6+": 21445,
+    "2-3": 77015,
+    "4-5": 68516,
+    "0": 10476,
+    "1": 10129
+  }
+}

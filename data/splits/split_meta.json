@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "val_fraction_target": 0.15,
+  "val_fraction_actual": 0.14999947888841006,
+  "n_train": 1875799,
+  "n_val": 331022,
+  "n_total": 2206821,
+  "country_train": {
+    "US": 1125089,
+    "India": 750710
+  },
+  "country_val": {
+    "US": 198544,
+    "India": 132478
+  },
+  "bucket_train": {
+    "6+": 214449,
+    "4-5": 685161,
+    "2-3": 770145,
+    "0": 104760,
+    "1": 101284
+  },
+  "bucket_val": {
+    "4-5": 120911,
+    "2-3": 135908,
+    "1": 17873,
+    "6+": 37843,
+    "0": 18487
+  },
+  "source1_path": "dataset/train/train_source1.tsv",
+  "ground_truth_path": "dataset/train/train_ground_truth.tsv"
+}

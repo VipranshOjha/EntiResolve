@@ -1,0 +1,73 @@
+{
+  "singleton_count": 544,
+  "models": {
+    "sampled_hardneg_1x_097": {
+      "correct_singletons": 352,
+      "false_merges": 192,
+      "singleton_accuracy": 0.6470588235294118,
+      "false_merge_rate": 0.35294117647058826,
+      "false_negative_rate": 0.0,
+      "mean_distractors_per_false_merge": 1.2604166666666667
+    },
+    "fulluniverse_hardneg_1x_090": {
+      "correct_singletons": 402,
+      "false_merges": 142,
+      "singleton_accuracy": 0.7389705882352942,
+      "false_merge_rate": 0.2610294117647059,
+      "false_negative_rate": 0.0,
+      "mean_distractors_per_false_merge": 1.204225352112676
+    },
+    "ensemble_blend": {
+      "correct_singletons": 367,
+      "false_merges": 177,
+      "singleton_accuracy": 0.6746323529411765,
+      "false_merge_rate": 0.32536764705882354,
+      "false_negative_rate": 0.0,
+      "mean_distractors_per_false_merge": 1.2203389830508475
+    },
+    "ensemble_agreement": {
+      "correct_singletons": 366,
+      "false_merges": 178,
+      "singleton_accuracy": 0.6727941176470589,
+      "false_merge_rate": 0.3272058823529412,
+      "false_negative_rate": 0.0,
+      "mean_distractors_per_false_merge": 1.247191011235955
+    }
+  },
+  "score_distributions": {
+    "hardneg_1x": {
+      "top1_scores": {
+        "mean": 0.6695360661764705,
+        "std": 0.37278780893824964,
+        "median": 0.8725149999999999,
+        "min": 0.00064,
+        "max": 0.9998,
+        "p90": 0.997852,
+        "p95": 0.998907,
+        "p99": 0.9996614
+      },
+      "top_vs_second_margins": {
+        "mean": 0.2956325919117647,
+        "median": 0.16623999999999994,
+        "std": 0.3115942695574476
+      }
+    },
+    "fulluniverse_hardneg_1x": {
+      "top1_scores": {
+        "mean": 0.5404655514705882,
+        "std": 0.35871381558149407,
+        "median": 0.5764750000000001,
+        "min": 0.00234,
+        "max": 0.99917,
+        "p90": 0.983931,
+        "p95": 0.9926480000000001,
+        "p99": 0.9979485
+      },
+      "top_vs_second_margins": {
+        "mean": 0.26498327205882355,
+        "median": 0.147905,
+        "std": 0.27751365518130405
+      }
+    }
+  }
+}

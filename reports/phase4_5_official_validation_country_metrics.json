@@ -1,0 +1,28 @@
+{
+  "India": {
+    "queries": 132478,
+    "macro_f05": 0.7921086130227646,
+    "macro_precision": 0.9068163657853694,
+    "macro_recall": 0.7197606119992298,
+    "pair_precision": 0.898450560817581,
+    "pair_recall": 0.7245681402860696,
+    "singleton_accuracy": 0.6697284884506282,
+    "mean_fp_per_query": 0.28382070985371155,
+    "tp": 332663,
+    "fp": 37600,
+    "fn": 126456
+  },
+  "US": {
+    "queries": 198544,
+    "macro_f05": 0.8503547682494025,
+    "macro_precision": 0.9241319133739732,
+    "macro_recall": 0.7869022828180885,
+    "pair_precision": 0.9209371489666933,
+    "pair_recall": 0.7925588911859768,
+    "singleton_accuracy": 0.704619271021292,
+    "mean_fp_per_query": 0.2353886292207269,
+    "tp": 544377,
+    "fp": 46735,
+    "fn": 142483
+  }
+}
